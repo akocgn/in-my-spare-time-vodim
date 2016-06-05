@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.inmysparetime.vodim.reader.MetricsFileReaderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-06-05T16:43:49" hostname="Alex" time="0.36">
-  <properties/>
-  <testcase name="testReadMetricsOnlyVersion" classname="de.inmysparetime.vodim.reader.MetricsFileReaderTest" time="0.312"/>
-  <testcase name="testReadMetrics" classname="de.inmysparetime.vodim.reader.MetricsFileReaderTest" time="0.042"/>
-  <testcase name="testReadMetricsVersionAndGauges" classname="de.inmysparetime.vodim.reader.MetricsFileReaderTest" time="0.006"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
