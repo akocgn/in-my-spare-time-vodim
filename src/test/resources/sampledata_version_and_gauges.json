@@ -2,7 +2,7 @@
   "version" : "3.0.0",
   "gauges" : {
     "Software.version" : {
-      "value" : "IVU.realtime-16.1.S08_build_20160603_1743"
+      "value" : "major.minor.patchlevel"
     },
     "System.applicationStartTime" : {
       "value" : "2016-06-03T17:49:34+02:00"
@@ -10,10 +10,10 @@
     "System.currentSystemTime" : {
       "value" : "2016-06-03T17:50:13+02:00"
     },
-    "datarequests.unsent.netpeer(4)" : {
+    "datarequests.unsent.tcp" : {
       "value" : 0
     },
-    "datarequests.unsent.udp(3)" : {
+    "datarequests.unsent.udp" : {
       "value" : 0
     },
     "device.disabled" : {
@@ -25,199 +25,199 @@
     "device.total" : {
       "value" : 15
     },
-    "requests.unsent.netpeer(4)" : {
+    "requests.unsent.tcp" : {
       "value" : 2
     },
-    "requests.unsent.netpeer(4).administration" : {
+    "requests.unsent.tcp.administration" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).basicdata" : {
+    "requests.unsent.tcp.basicdata" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).command" : {
+    "requests.unsent.tcp.command" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).departure" : {
+    "requests.unsent.tcp.event" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).departurecollection" : {
+    "requests.unsent.tcp.eventcollection" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).departuredeviation" : {
+    "requests.unsent.tcp.eventdeviation" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).information" : {
+    "requests.unsent.tcp.information" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).modification" : {
+    "requests.unsent.tcp.modification" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).other" : {
+    "requests.unsent.tcp.other" : {
       "value" : 1
     },
-    "requests.unsent.netpeer(4).parameter" : {
+    "requests.unsent.tcp.parameter" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).planneddata" : {
+    "requests.unsent.tcp.planneddata" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).planneddeparturedata" : {
+    "requests.unsent.tcp.plannedeventdata" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).software" : {
+    "requests.unsent.tcp.software" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).text" : {
+    "requests.unsent.tcp.text" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).timestamp" : {
+    "requests.unsent.tcp.timestamp" : {
       "value" : 1
     },
-    "requests.unsent.udp(3)" : {
+    "requests.unsent.udp" : {
       "value" : 1
     },
-    "requests.unsent.udp(3).administration" : {
+    "requests.unsent.udp.administration" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).basicdata" : {
+    "requests.unsent.udp.basicdata" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).command" : {
+    "requests.unsent.udp.command" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).departure" : {
+    "requests.unsent.udp.event" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).departurecollection" : {
+    "requests.unsent.udp.eventcollection" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).departuredeviation" : {
+    "requests.unsent.udp.eventdeviation" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).information" : {
+    "requests.unsent.udp.information" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).modification" : {
+    "requests.unsent.udp.modification" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).other" : {
+    "requests.unsent.udp.other" : {
       "value" : 1
     },
-    "requests.unsent.udp(3).parameter" : {
+    "requests.unsent.udp.parameter" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).planneddata" : {
+    "requests.unsent.udp.planneddata" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).planneddeparturedata" : {
+    "requests.unsent.udp.plannedeventdata" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).software" : {
+    "requests.unsent.udp.software" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).text" : {
+    "requests.unsent.udp.text" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).timestamp" : {
+    "requests.unsent.udp.timestamp" : {
       "value" : 0
     },
     "requests.waitingforacknowledge.total" : {
       "value" : 1
     },
-    "telegrams.priorityqueue.netpeer(4).priority0" : {
+    "telegrams.priorityqueue.tcp.priority0" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority1" : {
+    "telegrams.priorityqueue.tcp.priority1" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority10" : {
+    "telegrams.priorityqueue.tcp.priority10" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority11" : {
+    "telegrams.priorityqueue.tcp.priority11" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority12" : {
+    "telegrams.priorityqueue.tcp.priority12" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority13" : {
+    "telegrams.priorityqueue.tcp.priority13" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority14" : {
+    "telegrams.priorityqueue.tcp.priority14" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority2" : {
+    "telegrams.priorityqueue.tcp.priority2" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority3" : {
+    "telegrams.priorityqueue.tcp.priority3" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority4" : {
+    "telegrams.priorityqueue.tcp.priority4" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority5" : {
+    "telegrams.priorityqueue.tcp.priority5" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority6" : {
+    "telegrams.priorityqueue.tcp.priority6" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority7" : {
+    "telegrams.priorityqueue.tcp.priority7" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority8" : {
+    "telegrams.priorityqueue.tcp.priority8" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority9" : {
+    "telegrams.priorityqueue.tcp.priority9" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority0" : {
+    "telegrams.priorityqueue.udp.priority0" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority1" : {
+    "telegrams.priorityqueue.udp.priority1" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority10" : {
+    "telegrams.priorityqueue.udp.priority10" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority11" : {
+    "telegrams.priorityqueue.udp.priority11" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority12" : {
+    "telegrams.priorityqueue.udp.priority12" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority13" : {
+    "telegrams.priorityqueue.udp.priority13" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority14" : {
+    "telegrams.priorityqueue.udp.priority14" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority2" : {
+    "telegrams.priorityqueue.udp.priority2" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority3" : {
+    "telegrams.priorityqueue.udp.priority3" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority4" : {
+    "telegrams.priorityqueue.udp.priority4" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority5" : {
+    "telegrams.priorityqueue.udp.priority5" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority6" : {
+    "telegrams.priorityqueue.udp.priority6" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority7" : {
+    "telegrams.priorityqueue.udp.priority7" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority8" : {
+    "telegrams.priorityqueue.udp.priority8" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority9" : {
+    "telegrams.priorityqueue.udp.priority9" : {
       "value" : 0
     },
-    "telegrams.undispatched.netpeer(4)" : {
+    "telegrams.undispatched.tcp" : {
       "value" : 0
     },
-    "telegrams.undispatched.udp(3)" : {
+    "telegrams.undispatched.udp" : {
       "value" : 0
     }
   }

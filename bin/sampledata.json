@@ -2,7 +2,7 @@
   "version" : "3.0.0",
   "gauges" : {
     "Software.version" : {
-      "value" : "IVU.realtime-16.1.S08_build_20160603_1743"
+      "value" : "major.minor.patchlevel"
     },
     "System.applicationStartTime" : {
       "value" : "2016-06-03T17:49:34+02:00"
@@ -10,10 +10,10 @@
     "System.currentSystemTime" : {
       "value" : "2016-06-03T17:50:13+02:00"
     },
-    "datarequests.unsent.netpeer(4)" : {
+    "datarequests.unsent.tcp" : {
       "value" : 0
     },
-    "datarequests.unsent.udp(3)" : {
+    "datarequests.unsent.udp" : {
       "value" : 0
     },
     "device.disabled" : {
@@ -25,206 +25,206 @@
     "device.total" : {
       "value" : 15
     },
-    "requests.unsent.netpeer(4)" : {
+    "requests.unsent.tcp" : {
       "value" : 2
     },
-    "requests.unsent.netpeer(4).administration" : {
+    "requests.unsent.tcp.administration" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).basicdata" : {
+    "requests.unsent.tcp.basicdata" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).command" : {
+    "requests.unsent.tcp.command" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).departure" : {
+    "requests.unsent.tcp.event" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).departurecollection" : {
+    "requests.unsent.tcp.eventcollection" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).departuredeviation" : {
+    "requests.unsent.tcp.eventdeviation" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).information" : {
+    "requests.unsent.tcp.information" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).modification" : {
+    "requests.unsent.tcp.modification" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).other" : {
+    "requests.unsent.tcp.other" : {
       "value" : 1
     },
-    "requests.unsent.netpeer(4).parameter" : {
+    "requests.unsent.tcp.parameter" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).planneddata" : {
+    "requests.unsent.tcp.planneddata" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).planneddeparturedata" : {
+    "requests.unsent.tcp.plannedeventdata" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).software" : {
+    "requests.unsent.tcp.software" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).text" : {
+    "requests.unsent.tcp.text" : {
       "value" : 0
     },
-    "requests.unsent.netpeer(4).timestamp" : {
+    "requests.unsent.tcp.timestamp" : {
       "value" : 1
     },
-    "requests.unsent.udp(3)" : {
+    "requests.unsent.udp" : {
       "value" : 1
     },
-    "requests.unsent.udp(3).administration" : {
+    "requests.unsent.udp.administration" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).basicdata" : {
+    "requests.unsent.udp.basicdata" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).command" : {
+    "requests.unsent.udp.command" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).departure" : {
+    "requests.unsent.udp.event" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).departurecollection" : {
+    "requests.unsent.udp.eventcollection" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).departuredeviation" : {
+    "requests.unsent.udp.eventdeviation" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).information" : {
+    "requests.unsent.udp.information" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).modification" : {
+    "requests.unsent.udp.modification" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).other" : {
+    "requests.unsent.udp.other" : {
       "value" : 1
     },
-    "requests.unsent.udp(3).parameter" : {
+    "requests.unsent.udp.parameter" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).planneddata" : {
+    "requests.unsent.udp.planneddata" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).planneddeparturedata" : {
+    "requests.unsent.udp.plannedeventdata" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).software" : {
+    "requests.unsent.udp.software" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).text" : {
+    "requests.unsent.udp.text" : {
       "value" : 0
     },
-    "requests.unsent.udp(3).timestamp" : {
+    "requests.unsent.udp.timestamp" : {
       "value" : 0
     },
     "requests.waitingforacknowledge.total" : {
       "value" : 1
     },
-    "telegrams.priorityqueue.netpeer(4).priority0" : {
+    "telegrams.priorityqueue.tcp.priority0" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority1" : {
+    "telegrams.priorityqueue.tcp.priority1" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority10" : {
+    "telegrams.priorityqueue.tcp.priority10" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority11" : {
+    "telegrams.priorityqueue.tcp.priority11" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority12" : {
+    "telegrams.priorityqueue.tcp.priority12" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority13" : {
+    "telegrams.priorityqueue.tcp.priority13" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority14" : {
+    "telegrams.priorityqueue.tcp.priority14" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority2" : {
+    "telegrams.priorityqueue.tcp.priority2" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority3" : {
+    "telegrams.priorityqueue.tcp.priority3" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority4" : {
+    "telegrams.priorityqueue.tcp.priority4" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority5" : {
+    "telegrams.priorityqueue.tcp.priority5" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority6" : {
+    "telegrams.priorityqueue.tcp.priority6" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority7" : {
+    "telegrams.priorityqueue.tcp.priority7" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority8" : {
+    "telegrams.priorityqueue.tcp.priority8" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.netpeer(4).priority9" : {
+    "telegrams.priorityqueue.tcp.priority9" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority0" : {
+    "telegrams.priorityqueue.udp.priority0" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority1" : {
+    "telegrams.priorityqueue.udp.priority1" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority10" : {
+    "telegrams.priorityqueue.udp.priority10" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority11" : {
+    "telegrams.priorityqueue.udp.priority11" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority12" : {
+    "telegrams.priorityqueue.udp.priority12" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority13" : {
+    "telegrams.priorityqueue.udp.priority13" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority14" : {
+    "telegrams.priorityqueue.udp.priority14" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority2" : {
+    "telegrams.priorityqueue.udp.priority2" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority3" : {
+    "telegrams.priorityqueue.udp.priority3" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority4" : {
+    "telegrams.priorityqueue.udp.priority4" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority5" : {
+    "telegrams.priorityqueue.udp.priority5" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority6" : {
+    "telegrams.priorityqueue.udp.priority6" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority7" : {
+    "telegrams.priorityqueue.udp.priority7" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority8" : {
+    "telegrams.priorityqueue.udp.priority8" : {
       "value" : 0
     },
-    "telegrams.priorityqueue.udp(3).priority9" : {
+    "telegrams.priorityqueue.udp.priority9" : {
       "value" : 0
     },
-    "telegrams.undispatched.netpeer(4)" : {
+    "telegrams.undispatched.tcp" : {
       "value" : 0
     },
-    "telegrams.undispatched.udp(3)" : {
+    "telegrams.undispatched.udp" : {
       "value" : 0
     }
   },
   "counters" : { },
   "histograms" : { },
   "meters" : {
-    "request.cancel.netpeer(4).administration" : {
+    "request.cancel.tcp.administration" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -232,7 +232,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.netpeer(4).basicdata" : {
+    "request.cancel.tcp.basicdata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -240,7 +240,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.netpeer(4).command" : {
+    "request.cancel.tcp.command" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -248,7 +248,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.netpeer(4).complete" : {
+    "request.cancel.tcp.complete" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -256,7 +256,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.netpeer(4).data" : {
+    "request.cancel.tcp.data" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -264,7 +264,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.netpeer(4).departure" : {
+    "request.cancel.tcp.event" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -272,7 +272,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.netpeer(4).departurecollection" : {
+    "request.cancel.tcp.eventcollection" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -280,7 +280,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.netpeer(4).departuredeviation" : {
+    "request.cancel.tcp.eventdeviation" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -288,7 +288,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.netpeer(4).information" : {
+    "request.cancel.tcp.information" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -296,7 +296,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.netpeer(4).init" : {
+    "request.cancel.tcp.init" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -304,7 +304,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.netpeer(4).modification" : {
+    "request.cancel.tcp.modification" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -312,7 +312,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.netpeer(4).other" : {
+    "request.cancel.tcp.other" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -320,7 +320,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.netpeer(4).parameter" : {
+    "request.cancel.tcp.parameter" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -328,7 +328,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.netpeer(4).planneddata" : {
+    "request.cancel.tcp.planneddata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -336,7 +336,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.netpeer(4).planneddeparturedata" : {
+    "request.cancel.tcp.plannedeventdata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -344,7 +344,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.netpeer(4).software" : {
+    "request.cancel.tcp.software" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -352,7 +352,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
    },
-    "request.cancel.netpeer(4).text" : {
+    "request.cancel.tcp.text" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -360,7 +360,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.netpeer(4).timestamp" : {
+    "request.cancel.tcp.timestamp" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -368,7 +368,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.udp(3).administration" : {
+    "request.cancel.udp.administration" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -376,7 +376,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.udp(3).basicdata" : {
+    "request.cancel.udp.basicdata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -384,7 +384,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.udp(3).command" : {
+    "request.cancel.udp.command" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -392,7 +392,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.udp(3).complete" : {
+    "request.cancel.udp.complete" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -400,7 +400,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.udp(3).data" : {
+    "request.cancel.udp.data" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -408,7 +408,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.udp(3).departure" : {
+    "request.cancel.udp.event" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -416,7 +416,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.udp(3).departurecollection" : {
+    "request.cancel.udp.eventcollection" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -424,7 +424,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.udp(3).departuredeviation" : {
+    "request.cancel.udp.eventdeviation" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -432,7 +432,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.udp(3).information" : {
+    "request.cancel.udp.information" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -440,7 +440,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.udp(3).init" : {
+    "request.cancel.udp.init" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -448,7 +448,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.udp(3).modification" : {
+    "request.cancel.udp.modification" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -456,7 +456,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.udp(3).other" : {
+    "request.cancel.udp.other" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -464,7 +464,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.udp(3).parameter" : {
+    "request.cancel.udp.parameter" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -472,7 +472,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.udp(3).planneddata" : {
+    "request.cancel.udp.planneddata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -480,7 +480,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.udp(3).planneddeparturedata" : {
+    "request.cancel.udp.plannedeventdata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -488,7 +488,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.udp(3).software" : {
+    "request.cancel.udp.software" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -496,7 +496,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.udp(3).text" : {
+    "request.cancel.udp.text" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -504,7 +504,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.cancel.udp(3).timestamp" : {
+    "request.cancel.udp.timestamp" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -512,7 +512,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.netpeer(4).administration" : {
+    "request.expired.tcp.administration" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -520,7 +520,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.netpeer(4).basicdata" : {
+    "request.expired.tcp.basicdata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -528,7 +528,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.netpeer(4).command" : {
+    "request.expired.tcp.command" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -536,7 +536,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.netpeer(4).complete" : {
+    "request.expired.tcp.complete" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -544,7 +544,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.netpeer(4).data" : {
+    "request.expired.tcp.data" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -552,7 +552,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.netpeer(4).departure" : {
+    "request.expired.tcp.event" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -560,7 +560,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.netpeer(4).departurecollection" : {
+    "request.expired.tcp.eventcollection" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -568,7 +568,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.netpeer(4).departuredeviation" : {
+    "request.expired.tcp.eventdeviation" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -576,7 +576,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.netpeer(4).information" : {
+    "request.expired.tcp.information" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -584,7 +584,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.netpeer(4).init" : {
+    "request.expired.tcp.init" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -592,7 +592,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.netpeer(4).modification" : {
+    "request.expired.tcp.modification" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -600,7 +600,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.netpeer(4).other" : {
+    "request.expired.tcp.other" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -608,7 +608,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.netpeer(4).parameter" : {
+    "request.expired.tcp.parameter" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -616,7 +616,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.netpeer(4).planneddata" : {
+    "request.expired.tcp.planneddata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -624,7 +624,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.netpeer(4).planneddeparturedata" : {
+    "request.expired.tcp.plannedeventdata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -632,7 +632,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.netpeer(4).software" : {
+    "request.expired.tcp.software" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -640,7 +640,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.netpeer(4).text" : {
+    "request.expired.tcp.text" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -648,7 +648,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.netpeer(4).timestamp" : {
+    "request.expired.tcp.timestamp" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -656,7 +656,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.udp(3).administration" : {
+    "request.expired.udp.administration" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -664,7 +664,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.udp(3).basicdata" : {
+    "request.expired.udp.basicdata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -672,7 +672,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.udp(3).command" : {
+    "request.expired.udp.command" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -680,7 +680,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.udp(3).complete" : {
+    "request.expired.udp.complete" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -688,7 +688,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.udp(3).data" : {
+    "request.expired.udp.data" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -696,7 +696,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.udp(3).departure" : {
+    "request.expired.udp.event" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -704,7 +704,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.udp(3).departurecollection" : {
+    "request.expired.udp.eventcollection" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -712,7 +712,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.udp(3).departuredeviation" : {
+    "request.expired.udp.eventdeviation" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -720,7 +720,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.udp(3).information" : {
+    "request.expired.udp.information" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -728,7 +728,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.udp(3).init" : {
+    "request.expired.udp.init" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -736,7 +736,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.udp(3).modification" : {
+    "request.expired.udp.modification" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -744,7 +744,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.udp(3).other" : {
+    "request.expired.udp.other" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -752,7 +752,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.udp(3).parameter" : {
+    "request.expired.udp.parameter" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -760,7 +760,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.udp(3).planneddata" : {
+    "request.expired.udp.planneddata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -768,7 +768,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.udp(3).planneddeparturedata" : {
+    "request.expired.udp.plannedeventdata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -776,7 +776,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.udp(3).software" : {
+    "request.expired.udp.software" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -784,7 +784,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.udp(3).text" : {
+    "request.expired.udp.text" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -792,7 +792,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.expired.udp(3).timestamp" : {
+    "request.expired.udp.timestamp" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -800,7 +800,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.netpeer(4).administration" : {
+    "request.obsolete.tcp.administration" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -808,7 +808,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.netpeer(4).basicdata" : {
+    "request.obsolete.tcp.basicdata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -816,7 +816,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.netpeer(4).command" : {
+    "request.obsolete.tcp.command" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -824,7 +824,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.netpeer(4).complete" : {
+    "request.obsolete.tcp.complete" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -832,7 +832,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.netpeer(4).data" : {
+    "request.obsolete.tcp.data" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -840,7 +840,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.netpeer(4).departure" : {
+    "request.obsolete.tcp.event" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -848,7 +848,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.netpeer(4).departurecollection" : {
+    "request.obsolete.tcp.eventcollection" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -856,7 +856,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.netpeer(4).departuredeviation" : {
+    "request.obsolete.tcp.eventdeviation" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -864,7 +864,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.netpeer(4).information" : {
+    "request.obsolete.tcp.information" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -872,7 +872,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.netpeer(4).init" : {
+    "request.obsolete.tcp.init" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -880,7 +880,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.netpeer(4).modification" : {
+    "request.obsolete.tcp.modification" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -888,7 +888,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.netpeer(4).other" : {
+    "request.obsolete.tcp.other" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -896,7 +896,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.netpeer(4).parameter" : {
+    "request.obsolete.tcp.parameter" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -904,7 +904,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.netpeer(4).planneddata" : {
+    "request.obsolete.tcp.planneddata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -912,7 +912,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.netpeer(4).planneddeparturedata" : {
+    "request.obsolete.tcp.plannedeventdata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -920,7 +920,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.netpeer(4).software" : {
+    "request.obsolete.tcp.software" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -928,7 +928,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.netpeer(4).text" : {
+    "request.obsolete.tcp.text" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -936,7 +936,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.netpeer(4).timestamp" : {
+    "request.obsolete.tcp.timestamp" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -944,7 +944,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.udp(3).administration" : {
+    "request.obsolete.udp.administration" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -952,7 +952,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.udp(3).basicdata" : {
+    "request.obsolete.udp.basicdata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -960,7 +960,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.udp(3).command" : {
+    "request.obsolete.udp.command" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -968,7 +968,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.udp(3).complete" : {
+    "request.obsolete.udp.complete" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -976,7 +976,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.udp(3).data" : {
+    "request.obsolete.udp.data" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -984,7 +984,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.udp(3).departure" : {
+    "request.obsolete.udp.event" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -992,7 +992,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.udp(3).departurecollection" : {
+    "request.obsolete.udp.eventcollection" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1000,7 +1000,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.udp(3).departuredeviation" : {
+    "request.obsolete.udp.eventdeviation" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1008,7 +1008,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.udp(3).information" : {
+    "request.obsolete.udp.information" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1016,7 +1016,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.udp(3).init" : {
+    "request.obsolete.udp.init" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1024,7 +1024,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.udp(3).modification" : {
+    "request.obsolete.udp.modification" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1032,7 +1032,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.udp(3).other" : {
+    "request.obsolete.udp.other" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1040,7 +1040,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.udp(3).parameter" : {
+    "request.obsolete.udp.parameter" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1048,7 +1048,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.udp(3).planneddata" : {
+    "request.obsolete.udp.planneddata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1056,7 +1056,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.udp(3).planneddeparturedata" : {
+    "request.obsolete.udp.plannedeventdata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1064,7 +1064,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.udp(3).software" : {
+    "request.obsolete.udp.software" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1072,7 +1072,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.udp(3).text" : {
+    "request.obsolete.udp.text" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1080,7 +1080,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.obsolete.udp(3).timestamp" : {
+    "request.obsolete.udp.timestamp" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1136,7 +1136,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.received.departure" : {
+    "request.received.event" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1144,7 +1144,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.received.departurecollection" : {
+    "request.received.eventcollection" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1152,7 +1152,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.received.departuredeviation" : {
+    "request.received.eventdeviation" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1208,7 +1208,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "request.received.planneddeparturedata" : {
+    "request.received.plannedeventdata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1240,7 +1240,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.netpeer(4).administration" : {
+    "telegram.descheduled.tcp.administration" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1248,7 +1248,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.netpeer(4).basicdata" : {
+    "telegram.descheduled.tcp.basicdata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1256,7 +1256,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.netpeer(4).command" : {
+    "telegram.descheduled.tcp.command" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1264,7 +1264,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.netpeer(4).departure" : {
+    "telegram.descheduled.tcp.event" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1272,7 +1272,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.netpeer(4).departurecollection" : {
+    "telegram.descheduled.tcp.eventcollection" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1280,7 +1280,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.netpeer(4).departuredeviation" : {
+    "telegram.descheduled.tcp.eventdeviation" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1288,7 +1288,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.netpeer(4).information" : {
+    "telegram.descheduled.tcp.information" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1296,7 +1296,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.netpeer(4).modification" : {
+    "telegram.descheduled.tcp.modification" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1304,7 +1304,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.netpeer(4).other" : {
+    "telegram.descheduled.tcp.other" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1312,7 +1312,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.netpeer(4).parameter" : {
+    "telegram.descheduled.tcp.parameter" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1320,7 +1320,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.netpeer(4).planneddata" : {
+    "telegram.descheduled.tcp.planneddata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1328,7 +1328,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.netpeer(4).planneddeparturedata" : {
+    "telegram.descheduled.tcp.plannedeventdata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1336,7 +1336,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.netpeer(4).software" : {
+    "telegram.descheduled.tcp.software" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1344,7 +1344,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.netpeer(4).text" : {
+    "telegram.descheduled.tcp.text" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1352,7 +1352,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.netpeer(4).timestamp" : {
+    "telegram.descheduled.tcp.timestamp" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1360,7 +1360,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.udp(3).administration" : {
+    "telegram.descheduled.udp.administration" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1368,7 +1368,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.udp(3).basicdata" : {
+    "telegram.descheduled.udp.basicdata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1376,7 +1376,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.udp(3).command" : {
+    "telegram.descheduled.udp.command" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1384,7 +1384,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.udp(3).departure" : {
+    "telegram.descheduled.udp.event" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1392,7 +1392,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.udp(3).departurecollection" : {
+    "telegram.descheduled.udp.eventcollection" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1400,7 +1400,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.udp(3).departuredeviation" : {
+    "telegram.descheduled.udp.eventdeviation" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1408,7 +1408,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.udp(3).information" : {
+    "telegram.descheduled.udp.information" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1416,7 +1416,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.udp(3).modification" : {
+    "telegram.descheduled.udp.modification" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1424,7 +1424,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-   "telegram.descheduled.udp(3).other" : {
+   "telegram.descheduled.udp.other" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1432,7 +1432,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.udp(3).parameter" : {
+    "telegram.descheduled.udp.parameter" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1440,7 +1440,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.udp(3).planneddata" : {
+    "telegram.descheduled.udp.planneddata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1448,7 +1448,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.udp(3).planneddeparturedata" : {
+    "telegram.descheduled.udp.plannedeventdata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1456,7 +1456,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.udp(3).software" : {
+    "telegram.descheduled.udp.software" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1464,7 +1464,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.udp(3).text" : {
+    "telegram.descheduled.udp.text" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1472,7 +1472,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.descheduled.udp(3).timestamp" : {
+    "telegram.descheduled.udp.timestamp" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1480,7 +1480,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.dispatched.netpeer(4)" : {
+    "telegram.dispatched.tcp" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1488,7 +1488,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.dispatched.udp(3)" : {
+    "telegram.dispatched.udp" : {
       "count" : 2,
       "m15_rate" : 0.19455125049542182,
       "m1_rate" : 0.13729724901666207,
@@ -1496,7 +1496,7 @@
      "mean_rate" : 0.05360332328104048,
       "units" : "events/second"
     },
-    "telegram.scheduled.netpeer(4).administration" : {
+    "telegram.scheduled.tcp.administration" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1504,7 +1504,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.netpeer(4).basicdata" : {
+    "telegram.scheduled.tcp.basicdata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1512,7 +1512,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.netpeer(4).command" : {
+    "telegram.scheduled.tcp.command" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1520,7 +1520,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.netpeer(4).departure" : {
+    "telegram.scheduled.tcp.event" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1528,7 +1528,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.netpeer(4).departurecollection" : {
+    "telegram.scheduled.tcp.eventcollection" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1536,7 +1536,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.netpeer(4).departuredeviation" : {
+    "telegram.scheduled.tcp.eventdeviation" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1544,7 +1544,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.netpeer(4).information" : {
+    "telegram.scheduled.tcp.information" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1552,7 +1552,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.netpeer(4).modification" : {
+    "telegram.scheduled.tcp.modification" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1560,7 +1560,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.netpeer(4).other" : {
+    "telegram.scheduled.tcp.other" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1568,7 +1568,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.netpeer(4).parameter" : {
+    "telegram.scheduled.tcp.parameter" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1576,7 +1576,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.netpeer(4).planneddata" : {
+    "telegram.scheduled.tcp.planneddata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1584,7 +1584,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.netpeer(4).planneddeparturedata" : {
+    "telegram.scheduled.tcp.plannedeventdata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1592,7 +1592,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.netpeer(4).software" : {
+    "telegram.scheduled.tcp.software" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1600,7 +1600,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.netpeer(4).text" : {
+    "telegram.scheduled.tcp.text" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1608,7 +1608,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.netpeer(4).timestamp" : {
+    "telegram.scheduled.tcp.timestamp" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1616,7 +1616,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.udp(3).administration" : {
+    "telegram.scheduled.udp.administration" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1624,7 +1624,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.udp(3).basicdata" : {
+    "telegram.scheduled.udp.basicdata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1632,7 +1632,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.udp(3).command" : {
+    "telegram.scheduled.udp.command" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1640,7 +1640,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.udp(3).departure" : {
+    "telegram.scheduled.udp.event" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1648,7 +1648,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.udp(3).departurecollection" : {
+    "telegram.scheduled.udp.eventcollection" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1656,7 +1656,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.udp(3).departuredeviation" : {
+    "telegram.scheduled.udp.eventdeviation" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1664,7 +1664,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.udp(3).information" : {
+    "telegram.scheduled.udp.information" : {
       "count" : 1,
       "m15_rate" : 0.0011080303990206543,
       "m1_rate" : 0.015991117074135343,
@@ -1672,7 +1672,7 @@
       "mean_rate" : 0.026800676792248825,
       "units" : "events/second"
     },
-    "telegram.scheduled.udp(3).modification" : {
+    "telegram.scheduled.udp.modification" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1680,7 +1680,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.udp(3).other" : {
+    "telegram.scheduled.udp.other" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1688,7 +1688,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.udp(3).parameter" : {
+    "telegram.scheduled.udp.parameter" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1696,7 +1696,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.udp(3).planneddata" : {
+    "telegram.scheduled.udp.planneddata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1704,7 +1704,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.udp(3).planneddeparturedata" : {
+    "telegram.scheduled.udp.plannedeventdata" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1712,7 +1712,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.udp(3).software" : {
+    "telegram.scheduled.udp.software" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1720,7 +1720,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.udp(3).text" : {
+    "telegram.scheduled.udp.text" : {
       "count" : 0,
       "m15_rate" : 0.0,
       "m1_rate" : 0.0,
@@ -1728,7 +1728,7 @@
       "mean_rate" : 0.0,
       "units" : "events/second"
     },
-    "telegram.scheduled.udp(3).timestamp" : {
+    "telegram.scheduled.udp.timestamp" : {
       "count" : 1,
       "m15_rate" : 0.1934432200964012,
       "m1_rate" : 0.12130613194252672,
