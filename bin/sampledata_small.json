@@ -1,0 +1,137 @@
+{
+  "version" : "3.0.0",
+  "gauges" : {
+    "Software.version" : {
+      "value" : "major.minor.patchlevel"
+    },
+    "System.applicationStartTime" : {
+      "value" : "2016-06-03T17:49:34+02:00"
+    },
+    "System.currentSystemTime" : {
+      "value" : "2016-06-03T17:50:13+02:00"
+    },
+    "datarequests.unsent.tcp" : {
+      "value" : 0
+    },
+    "datarequests.unsent.udp" : {
+      "value" : 0
+    },
+    "device.disabled" : {
+      "value" : 13
+    },
+    "device.disturbed" : {
+      "value" : 1
+    },
+    "device.total" : {
+      "value" : 15
+    },
+    "requests.unsent.tcp" : {
+      "value" : 2
+    },
+    "requests.unsent.tcp.administration" : {
+      "value" : 0
+    },
+    "requests.unsent.tcp.basicdata" : {
+      "value" : 0
+    },
+    "requests.unsent.tcp.command" : {
+      "value" : 0
+    },
+    "requests.unsent.tcp.event" : {
+      "value" : 0
+    },
+    "requests.unsent.tcp.eventcollection" : {
+      "value" : 0
+    },
+    "requests.unsent.tcp.eventdeviation" : {
+      "value" : 0
+    },
+    "requests.unsent.tcp.information" : {
+      "value" : 0
+    },
+    "requests.unsent.tcp.modification" : {
+      "value" : 0
+    },
+    "requests.unsent.tcp.other" : {
+      "value" : 1
+    },
+    "requests.unsent.tcp.parameter" : {
+      "value" : 0
+    },
+    "requests.unsent.tcp.planneddata" : {
+      "value" : 0
+    },
+    "requests.unsent.tcp.plannedeventdata" : {
+      "value" : 0
+    },
+    "requests.unsent.tcp.software" : {
+      "value" : 0
+    },
+    "requests.unsent.tcp.text" : {
+      "value" : 0
+    },
+    "requests.unsent.tcp.timestamp" : {
+      "value" : 1
+    },
+    
+    "requests.waitingforacknowledge.total" : {
+      "value" : 1
+    },
+    "telegrams.priorityqueue.tcp.priority0" : {
+      "value" : 0
+    },
+    "telegrams.priorityqueue.tcp.priority1" : {
+      "value" : 0
+    },
+    "telegrams.priorityqueue.tcp.priority10" : {
+      "value" : 0
+    },
+    "telegrams.priorityqueue.tcp.priority11" : {
+      "value" : 0
+    },
+    "telegrams.priorityqueue.tcp.priority12" : {
+      "value" : 0
+    },
+    "telegrams.priorityqueue.tcp.priority13" : {
+      "value" : 0
+    },
+    "telegrams.priorityqueue.tcp.priority14" : {
+      "value" : 0
+    },
+    "telegrams.priorityqueue.tcp.priority2" : {
+      "value" : 0
+    },
+    "telegrams.priorityqueue.tcp.priority3" : {
+      "value" : 0
+    },
+    "telegrams.priorityqueue.tcp.priority4" : {
+      "value" : 0
+    },
+    "telegrams.priorityqueue.tcp.priority5" : {
+      "value" : 0
+    },
+    "telegrams.priorityqueue.tcp.priority6" : {
+      "value" : 0
+    },
+    "telegrams.priorityqueue.tcp.priority7" : {
+      "value" : 0
+    },
+    "telegrams.priorityqueue.tcp.priority8" : {
+      "value" : 0
+    },
+    "telegrams.priorityqueue.tcp.priority9" : {
+      "value" : 0
+    },
+    "telegrams.undispatched.tcp" : {
+      "value" : 0
+    },
+    "telegrams.undispatched.udp" : {
+      "value" : 0
+    }
+  },
+  "counters" : { },
+  "histograms" : { },
+  "meters" : {
+  },
+  "timers" : { }
+}

@@ -45,7 +45,7 @@ public class VodimMain extends Application {
 			try {
 				reader = new MetricsURLReader(new URL(source));
 			} catch (MalformedURLException e) {
-				LOG.error("Cannot reach '"+source+"' as URL.", e);
+				LOG.error("Cannot reach '" + source + "' as URL.", e);
 				System.exit(-1);
 			}
 		} else {
@@ -59,7 +59,7 @@ public class VodimMain extends Application {
 		service.start();
 
 		final ScheduledService<Metrics> updateservice = new ServiceFactory().createUpdateService(Duration.seconds(30),
-			reader, history);
+				reader, history);
 		updateservice.setRestartOnFailure(true);
 		updateservice.setDelay(Duration.seconds(30));
 		updateservice.start();
@@ -88,7 +88,10 @@ public class VodimMain extends Application {
 		// displayTimers(root, mx.getTimers());
 		// }
 		final Scene scene = new Scene(root);
-		scene.getStylesheets().add(getClass().getResource("vodim.css").toExternalForm());
+		final URL resource = getClass().getResource("vodim.css");
+		if (resource != null) {
+			scene.getStylesheets().add(resource.toExternalForm());
+		}
 		primaryStage.setScene(scene);
 		return mx;
 

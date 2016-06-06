@@ -3,8 +3,8 @@ apply plugin: 'eclipse'
 apply plugin: 'application'
 
 sourceCompatibility = 1.8
-version = '1.0'
-mainClassName = "de.inmysparetime.vodim.Demo"
+version = '0.1.0'
+mainClassName = "de.inmysparetime.vodim.VodimMain"
 jar {
     manifest {
         attributes 'Implementation-Title': 'Vodim',
